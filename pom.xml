@@ -32,7 +32,7 @@
           <manifest>
             <addClasspath>true</addClasspath>
             <classpathPrefix>lib/</classpathPrefix>
-            <mainClass>com.example.cmpe282.cmpe282_autodeploy</mainClass>
+            <mainClass>target.classes.com.example.cmpe282.cmpe282_autodeploy</mainClass>
           </manifest>
         </archive>
       </configuration>
