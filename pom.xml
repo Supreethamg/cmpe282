@@ -22,17 +22,4 @@
 	<!-- Additional lines to be added here... -->
 
 
-	<plugin>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-maven-plugin</artifactId>
-		<version>1.2.5.RELEASE</version>
-		<executions>
-			<execution>
-				<goals>
-					<goal>repackage</goal>
-				</goals>
-			</execution>
-		</executions>
-	</plugin>
-
 </project>
