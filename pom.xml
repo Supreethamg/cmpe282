@@ -38,7 +38,7 @@
       </configuration>
     </plugin>
   </plugins>
-</build>
+
 	
 <repositories>
     <repository>
@@ -53,7 +53,7 @@
     </pluginRepository>
 </pluginRepositories>
 	
-<build>
+
     <finalName>com.example.cmpe282</finalName>
     <plugins>
     <plugin>
