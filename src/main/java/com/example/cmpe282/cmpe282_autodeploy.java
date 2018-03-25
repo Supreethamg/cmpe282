@@ -10,7 +10,7 @@ public class cmpe282_autodeploy {
 
     @RequestMapping("/")
     String home() {
-        return "Hello BackBenchers@cloud";
+        return "Hello BackBenchers@cloud!!";
     }
 
     public static void main(String[] args) throws Exception {
