@@ -20,7 +20,7 @@
 		</dependency>
 	</dependencies>
 	<!-- Additional lines to be added here... -->
-	
+	<build>
 <plugins>
     <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -53,7 +53,7 @@
         </executions>
     </plugin>
 </plugins>
-
+	</build>
 	
 
 </project>
