@@ -20,53 +20,6 @@
 		</dependency>
 	</dependencies>
 	<!-- Additional lines to be added here... -->
-	<build>
-  <plugins>
-    <plugin>
-      <!-- Build an executable JAR -->
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-jar-plugin</artifactId>
-      <version>3.0.2</version>
-      <configuration>
-        <archive>
-          <manifest>
-            <addClasspath>true</addClasspath>
-            <classpathPrefix>target/</classpathPrefix>
-            <mainClass>com.example.cmpe282.cmpe282_autodeploy</mainClass>
-          </manifest>
-        </archive>
-      </configuration>
-    </plugin>
-  </plugins>
-
-	
-<repositories>
-    <repository>
-        <id>spring-releases</id>
-        <url>https://repo.spring.io/libs-release</url>
-    </repository>
-</repositories>
-<pluginRepositories>
-    <pluginRepository>
-        <id>spring-releases</id>
-        <url>https://repo.spring.io/libs-release</url>
-    </pluginRepository>
-</pluginRepositories>
 	
 
-    <finalName>com.example.cmpe282</finalName>
-    <plugins>
-    <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework</groupId>
-                <artifactId>springloaded</artifactId>
-                <version>1.2.1.RELEASE</version>
-            </dependency>
-        </dependencies>
-    </plugin>
-    </plugins>
-</build>  
 </project>
